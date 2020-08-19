@@ -150,6 +150,7 @@ void show_scores_ui( const achievements_tracker &achievements, stats_tracker &st
                     view.set_text( kills.get_kills_text() );
                     break;
                 case tab_mode::num_tabs:
+                    // NOLINTNEXTLINE(cert-dcl03-c)
                     cata_assert( false );
                     break;
             }
